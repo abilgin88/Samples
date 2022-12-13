@@ -48,3 +48,18 @@ let missionMessage2 = "Apollo \(number) landed on the moon"
 print(missionMessage2)
 
 print("5 * 5 is \(5 * 5)")
+
+
+let age = 38
+print("You are \(age)")
+
+//: Checkpoint1
+//Your goal is to write a Swift playground that:
+//
+//Creates a constant holding any temperature in Celsius.
+//Converts it to Fahrenheit by multiplying by 9, dividing by 5, then adding 32.
+//Prints the result for the user, showing both the Celsius and Fahrenheit values.
+
+let temperature = 90
+var fahrenheit = ((90 * 9) / 5 ) + 32
+print("\(temperature)° C is \(fahrenheit)° F")
