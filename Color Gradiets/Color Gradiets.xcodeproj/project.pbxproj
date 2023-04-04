@@ -11,6 +11,7 @@
 		85EFBB1B29DA7B1A0006775E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EFBB1A29DA7B1A0006775E /* ContentView.swift */; };
 		85EFBB1D29DA7B1C0006775E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85EFBB1C29DA7B1C0006775E /* Assets.xcassets */; };
 		85EFBB2029DA7B1C0006775E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85EFBB1F29DA7B1C0006775E /* Preview Assets.xcassets */; };
+		85EFBB2A29DBB8890006775E /* buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EFBB2929DBB8890006775E /* buttons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		85EFBB1A29DA7B1A0006775E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		85EFBB1C29DA7B1C0006775E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85EFBB1F29DA7B1C0006775E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85EFBB2929DBB8890006775E /* buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +53,9 @@
 		85EFBB1729DA7B1A0006775E /* Color Gradiets */ = {
 			isa = PBXGroup;
 			children = (
-				85EFBB1829DA7B1A0006775E /* Color_GradietsApp.swift */,
-				85EFBB1A29DA7B1A0006775E /* ContentView.swift */,
-				85EFBB1C29DA7B1C0006775E /* Assets.xcassets */,
+				85EFBB2829DBB8690006775E /* Models */,
+				85EFBB2629DBB8560006775E /* App */,
+				85EFBB2729DBB8610006775E /* Views */,
 				85EFBB1E29DA7B1C0006775E /* Preview Content */,
 			);
 			path = "Color Gradiets";
@@ -65,6 +67,31 @@
 				85EFBB1F29DA7B1C0006775E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		85EFBB2629DBB8560006775E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				85EFBB1829DA7B1A0006775E /* Color_GradietsApp.swift */,
+				85EFBB1C29DA7B1C0006775E /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		85EFBB2729DBB8610006775E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				85EFBB1A29DA7B1A0006775E /* ContentView.swift */,
+				85EFBB2929DBB8890006775E /* buttons.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		85EFBB2829DBB8690006775E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85EFBB1B29DA7B1A0006775E /* ContentView.swift in Sources */,
+				85EFBB2A29DBB8890006775E /* buttons.swift in Sources */,
 				85EFBB1929DA7B1A0006775E /* Color_GradietsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
