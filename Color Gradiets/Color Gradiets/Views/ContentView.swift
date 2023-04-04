@@ -15,7 +15,11 @@ struct ContentView: View {
       Color("BackGround")
         .ignoresSafeArea()
       
+      
       VStack {
+        Spacer()
+        Text("Abdullah Bilgin")
+          .foregroundColor(Color("TextColor"))
         Spacer()
         buttons()
         Spacer()
